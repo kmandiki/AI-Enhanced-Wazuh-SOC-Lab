@@ -2,10 +2,11 @@
 
 ##  Project Overview
 
-This repository documents the deployment, troubleshooting, and enhancement of a home Security Operations Center(SOC) lab.
+This repository documents the deployment, troubleshooting, and enhancement of a home Security Operations 
+Center(SOC) lab.
 
-###  Lab Architecture
-      AI-Enhanced Wazuh SOC Lab
+#### Lab Architecture
+                    AI-Enhanced Wazuh SOC Lab
 
                            GREEN NETWORK
                    ───────────────────────────
@@ -33,8 +34,6 @@ This repository documents the deployment, troubleshooting, and enhancement of a 
 
                     Open WebUI Access
                  http://10.0.10.20:3000
-
-
 ##  Objectives
 
   -  Deploy a functional SIEM platform
