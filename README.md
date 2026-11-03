@@ -4,6 +4,37 @@
 
 This repository documents the deployment, troubleshooting, and enhancement of a home Security Operations Center(SOC) lab.
 
+###  Lab Architecture
+      AI-Enhanced Wazuh SOC Lab
+
+                           GREEN NETWORK
+                   ───────────────────────────
+
+      ┌──────────────┐                 ┌─────────────────┐
+      │   AD-DC01    │                 │  Ubuntu-SOC-2   │
+      ├──────────────┤                 ├─────────────────┤
+      │ Active Dir   │                 │ Wazuh Manager   │
+      │ DNS          │                 │ Wazuh Dashboard │
+      │ DHCP         │                 │ Wazuh Indexer   │
+      │ 10.0.10.10   │                 │ Ollama          │
+      └──────┬───────┘                 │ Open WebUI      │
+             │                         │ 10.0.10.20      │
+             │                         └────────┬────────┘
+             │                                  │
+             ▼                                  ▼
+
+                    ┌─────────────────┐
+                    │      WIN10      │
+                    ├─────────────────┤
+                    │ Sysmon          │
+                    │ Wazuh Agent     │
+                    │ Browser Access  │
+                    └─────────────────┘
+
+                    Open WebUI Access
+                 http://10.0.10.20:3000
+
+
 ##  Objectives
 
   -  Deploy a functional SIEM platform
