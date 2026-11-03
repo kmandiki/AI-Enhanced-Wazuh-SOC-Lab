@@ -1,23 +1,27 @@
-AI-Enhanced Wazuh SOC Lab
-Overview
-This project documents the deployment and troubleshooting of a home SOC lab using:
-- Wazuh,
-- Sysmon,
-- Active Directory,
-- Ollama,
-- Open WebUI
-Key Achievements
-- Recovered Wazuh after storage exhausation
-- Expanded Ubuntu storage from 29GB to 58GB
-- Integrated Sysmon
-- Installed Ollama
-- Deployed Open WebUI
-- Connected AI models to Open WebUI
-Status
-  Active Directory Working
-  Wazuh Working
-  Sysmon Working
-  Ollama Working
-  Open WebUI working
-  AI Model Integration Working
-  
+#  AI-Enhanced Wazuh SOC Lab
+
+##  Project Overview
+
+This repository documents the deployment, troubleshooting, and enhancement of a home Security Operations Center(SOC) lab.
+
+###  Technologies Used
+  -  Wazuh
+  -  Sysmon
+  -  Active Directory
+  -  Ollama
+  -  Open WebUI
+  -  Ubuntu Server
+  -  Windows 10
+  -  VirtualBox
+
+###  Current Status
+  -  Active Directory Operational
+  -  Wazuh Operational
+  -  Sysmon Operational
+  -  Ollama Operational
+  -  Open WebUI Operational
+
+###  Author
+
+Killian Mandiki
+
