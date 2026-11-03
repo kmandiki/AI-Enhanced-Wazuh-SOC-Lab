@@ -13,20 +13,22 @@ This repository documents the deployment, troubleshooting, and enhancement of a 
   -  Add a local AI assistant for log analysis
     
 ###  Technologies Used
-  -  Wazuh
-  -  Sysmon
-  -  Active Directory
-  -  Ollama
-  -  Open WebUI
+  -  VirtualBox
   -  Ubuntu Server
   -  Windows 10
-  -  VirtualBox
+  -  Active Directory
+  -  Wazuh
+  -  Sysmon
+  -  Docker
+  -  Ollama
+  -  Open WebUI
+    
 
 ###  Current Status
   - ✅ Active Directory Operational
-  - ✅ Operational
+  - ✅ Wazuh Operational
   - ✅ Sysmon Operational
-  - ✅ Operational
+  - ✅ Ollama Operational
   - ✅ Open WebUI Operational
   - ✅AI Model Integration Operational
 
@@ -49,9 +51,19 @@ This repository documents the deployment, troubleshooting, and enhancement of a 
   -  Malware Analysis Workflows
   -  AI-Assisted Alert Triage
 
+###  Key Achievements
+  -  Recovered Wazuh after storage exhaustion
+  -  Expanded Ubuntu storage from 29GB to 58GB
+  -  Extended Linux LVM volumes
+  -  Integrated Sysmon telementry
+  -  Installed Ollama
+  -  Deployed Open WebUI
+  -  Connected AI models to Open WebUI
+  -  Built an AI-assisted SOC environment
+
 ###  Author
 
 Killian Mandiki
 
-Cybersecurity Home Lad Project
+Cybersecurity Home Lab Project
 
