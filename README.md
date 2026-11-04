@@ -105,14 +105,16 @@ The lab was enhanced through the integration of Ollama and Open WebUI, providing
 -  Custom Wazuh Detection Rules
   
 ##  Author
-  Killian Mandiki
+###  Killian Mandiki
+Cybersecurity Enthusiast | SOC Analyst Aspirant | AI-Enhanced Security Lab Builder
 
-  Cybersecurity Home Lab Project
-
-  Building practical skills in:
-
+###  Areas of Focus
   -  Security Operations (SOC)
   -  Detection Engineering
   -  Threat Hunting
   -  Incident Response
   -  AI-Assisted Security Analysis
+
+This repository is part of my cybersecurity portfolio and demonstrates practical experience with SIEM deployment, endpoint monitoring, AI integration, Linux administration, and security operations workflows.
+
+ 
